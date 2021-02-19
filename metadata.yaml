@@ -8,7 +8,9 @@ description: |-
   Initial conditions are WOA13v2 potential temperature and practical salinity.
   Run with JRA55-do v1.4.0 interannually-varying forcing with all solid runoff
   converted to liquid runoff with no heat transfer.
-  Spin up starts 1 Jan 1958 and runs to 1 Jan 2019.
+  Initial condition is /scratch/v45/hh0162/access-om2/archive/1deg_jra55_iaf_omip2-fixed/restart131
+  which is the 1 Jan 1968 state from cycle 3 of /scratch/v45/hh0162/access-om2/control/1deg_jra55_iaf_omip2-fixed
+  but this run configuration does not use BGC, unlike the initial condition.
 notes: |-
   Source code: https://github.com/COSIMA/access-om2
   License: Attribution-NonCommercial-NoDerivatives 4.0 International (http://creativecommons.org/licenses/by-nc-nd/4.0/legalcode)

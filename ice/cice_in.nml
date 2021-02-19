@@ -192,9 +192,9 @@
     f_bounds          = .false.
     f_congel          = 'md'
     f_coszen          = 'x'
-    f_daidtd          = 'm'
-    f_daidtt          = 'm'
-    f_divu            = 'm'
+    f_daidtd          = 'md'
+    f_daidtt          = 'md'
+    f_divu            = 'md'
     f_dsnow           = 'x'
     f_dvidtd          = 'md'
     f_dvidtt          = 'md'
@@ -204,7 +204,7 @@
     f_dyu             = .true.
     f_evap            = 'x'
     f_evap_ai         = 'm'
-    f_fcondtop_ai     = 'm'
+    f_fcondtop_ai     = 'md'
     f_fcondtopn_ai    = 'm'
     f_fhocn           = 'x'
     f_fhocn_ai        = 'm'
@@ -217,7 +217,7 @@
     f_fmeltt_ai       = 'm'
     f_fmelttn_ai      = 'm'
     f_frazil          = 'md'
-    f_fresh           = 'x'
+    f_fresh           = 'm'
     f_fresh_ai        = 'm'
     f_frz_onset       = 'x'
     f_frzmlt          = 'md'
@@ -225,7 +225,7 @@
     f_fsalt_ai        = 'm'
     f_fsens           = 'x'
     f_fsens_ai        = 'm'
-    f_fsurf_ai        = 'x'
+    f_fsurf_ai        = 'md'
     f_fsurfn_ai       = 'm'
     f_fswabs          = 'x'
     f_fswabs_ai       = 'm'
@@ -241,10 +241,10 @@
     f_htn             = .true.
     f_iage            = 'm'
     f_icepresent      = 'm'
-    f_meltb           = 'm'
+    f_meltb           = 'md'
     f_meltl           = 'm'
-    f_melts           = 'm'
-    f_meltt           = 'm'
+    f_melts           = 'md'
+    f_meltt           = 'md'
     f_mlt_onset       = 'x'
     f_ncat            = .true.
     f_qref            = 'x'
@@ -254,7 +254,7 @@
     f_sice            = 'm'
     f_sig1            = 'x'
     f_sig2            = 'x'
-    f_sinz            = 'x'
+    f_sinz            = 'md'
     f_snoice          = 'md'
     f_snow            = 'x'
     f_snow_ai         = 'm'
@@ -273,7 +273,7 @@
     f_strtlty         = 'm'
     f_tair            = 'm'
     f_tarea           = .true.
-    f_tinz            = 'x'
+    f_tinz            = 'md'
     f_tmask           = .true.
     f_tref            = 'x'
     f_trsig           = 'm'
@@ -301,7 +301,7 @@
     f_dardg1ndt       = 'x'
     f_dardg2dt        = 'x'
     f_dardg2ndt       = 'x'
-    f_dvirdgdt        = 'x'
+    f_dvirdgdt        = 'm'
     f_dvirdgndt       = 'x'
     f_krdgn           = 'x'
     f_opening         = 'm'
@@ -360,7 +360,7 @@
 /
 
 &icefields_drag_nml
-    f_cdn_atm         = 'x'
-    f_cdn_ocn         = 'x'
-    f_drag            = 'x'
+    f_cdn_atm         = 'm'
+    f_cdn_ocn         = 'm'
+    f_drag            = 'm'
 /
