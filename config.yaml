@@ -8,8 +8,8 @@ project: jk72
 # (you may need to add the corresponding PBS -l storage flag in sync_data.sh)
 shortpath: /scratch/jk72
 
-queue: normal
-walltime: 3:00:00
+queue: normalbw
+walltime: 0:45:00
 jobname: 1deg_jra55_iaf
 mem: 1000GB
 
@@ -65,7 +65,7 @@ mpirun: --mca io ompio --mca io_ompio_num_aggregators 1
 qsub_flags: -W umask=027
 # set number of cores per node (28 for normalbw, 48 for normal on gadi)
 platform:
-    nodesize: 48
+    nodesize: 28
 # sweep and resubmit on specific errors - see https://github.com/payu-org/payu/issues/241#issuecomment-610739771
 userscripts:
     error: resub.sh
