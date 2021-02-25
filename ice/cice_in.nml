@@ -90,7 +90,7 @@
 
 &dynamics_nml
     advection         = 'remap'
-    cosw              = 1.0
+    cosw              = 0.9993908270190958
     dragio            = 0.00536
     iceruf            = 0.0005
     kdyn              = 1
@@ -100,7 +100,7 @@
     mu_rdg            = 3
     ndte              = 120
     revised_evp       = .false.
-    sinw              = 0.0
+    sinw              = 0.03489949670250097
 /
 
 &shortwave_nml
