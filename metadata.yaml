@@ -11,6 +11,10 @@ description: |-
   Initial condition is /scratch/v45/hh0162/access-om2/archive/1deg_jra55_iaf_omip2-fixed/restart131
   which is the 1 Jan 1968 state from cycle 3 of /scratch/v45/hh0162/access-om2/control/1deg_jra55_iaf_omip2-fixed
   but this run configuration does not use BGC, unlike the initial condition.
+  NOTE: this is a perturbation experiment, but the description above is for the control run.
+  This perturbation experiment is based on the control run /home/156/aek156/payu/param_ensemble/ensemble/../1deg_jra55_iaf_ensemble
+  but with initial condition /scratch/jk72/aek156/access-om2/archive/1deg_jra55_iaf_ensemble/restart131
+  and ice/cice_in.nml -> dynamics_nml -> cosw and sinw changed to give a turning angle of 22 degrees.
 notes: |-
   Source code: https://github.com/COSIMA/access-om2
   License: Attribution-NonCommercial-NoDerivatives 4.0 International (http://creativecommons.org/licenses/by-nc-nd/4.0/legalcode)
@@ -25,8 +29,12 @@ notes: |-
   (c) let us know of any publications which use these models or data so we can add them to our list:
   https://scholar.google.com/citations?hl=en&user=inVqu_4AAAAJ
 keywords:
-  - one
-  - cosima
-  - access-om2-1
-  - jra55-do-v1.4.0
-  - iaf
+- one
+- cosima
+- access-om2-1
+- jra55-do-v1.4.0
+- iaf
+- perturbation
+- turning_angle
+- cosw
+- sinw
