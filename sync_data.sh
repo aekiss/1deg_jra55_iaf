@@ -100,7 +100,8 @@ for d in archive/output*/ice/OUTPUT; do
                 for daily in ${f/.nc/-??.nc}
                 do
                     # rename individual daily files - user to delete
-                    mv $daily $daily-DELETE
+                    # mv $daily $daily-DELETE
+                    rm $daily
                 done
             else
                 rm ${f/.nc/-IN-PROGRESS}
@@ -108,6 +109,13 @@ for d in archive/output*/ice/OUTPUT; do
         fi
     done
 done
+
+echo "$0 completed successfully"
+
+exit 0
+
+
+
 
 cd archive || exit 1
 
