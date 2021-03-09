@@ -83,8 +83,6 @@ if [ $exitcode != "0" -o $help == true ]; then
     exit $exitcode
 fi
 
-sourcepath="$PWD"
-mkdir -p $SYNCDIR || { echo "Error: cannot create $SYNCDIR - edit $0 to set SYNCDIR"; exit 1; }
 
 # concatenate ice daily files
 module load nco
@@ -115,6 +113,8 @@ echo "$0 completed successfully"
 exit 0
 
 
+sourcepath="$PWD"
+mkdir -p $SYNCDIR || { echo "Error: cannot create $SYNCDIR - edit $0 to set SYNCDIR"; exit 1; }
 
 
 cd archive || exit 1
