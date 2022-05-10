@@ -112,7 +112,7 @@ done
 
 echo "$0 completed successfully"
 
-exit 0
+# exit 0
 
 
 
